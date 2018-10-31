@@ -11,7 +11,7 @@ carpentry: "sip"
 
 # Overall title for pages.
 title: "BMC workshop"
-series_name: "SIH - partner workshop"
+series_name: "Partner workshop"
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -29,7 +29,7 @@ repository: <USERNAME>/<PROJECT>
 email: "sih.training@sydney.edu.au"
 
 # Sites.
-series_home: "https://sydney-informatics-hub.github.io/training.artemis/"
+series_home: "https://informatics.sydney.edu.au/training/"
 sih_site: "http://informatics.sydney.edu.au"
 amy_site: "https://amy.software-carpentry.org/workshops"
 carpentries_github: "https://github.com/carpentries"

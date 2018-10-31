@@ -244,7 +244,7 @@ eventbrite: "50385247632"          # optional: alphanumeric key for Eventbrite r
 {% endcomment %}
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code. Course material can be found here FIXME. 
 </p>
 {% endif %}
 
@@ -267,8 +267,9 @@ eventbrite: "50385247632"          # optional: alphanumeric key for Eventbrite r
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
-<h2 id="syllabus">Syllabus</h2>
 
+{% comment %}
+<h2 id="syllabus">Syllabus</h2>
 {% if page.carpentry == "swc" %}
   {% include sc/syllabus.html %}
 {% elsif page.carpentry == "dc" %}
@@ -279,11 +280,9 @@ eventbrite: "50385247632"          # optional: alphanumeric key for Eventbrite r
   {% include sih/syllabus.html %}
 {% elsif page.carpentry == "sip" %}
   {% include sip/syllabus.html %}
-
-
 {% endif %}
-
 <hr/>
+{% endcomment %}
 
 {% comment %}
   SETUP

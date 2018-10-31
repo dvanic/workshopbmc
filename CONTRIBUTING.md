@@ -46,7 +46,7 @@ and to meet some of our community members.
 
 ## Where to Contribute
 
-1.  If you wish to change this lesson,
+1.  If you wish to change this lesson, FIXME
     please work in <https://github.sydney.edu.au/informatics/training.artemis/>,
     which can be viewed at <https://sydney-informatics-hub.github.io/training.artemis/>.
 
